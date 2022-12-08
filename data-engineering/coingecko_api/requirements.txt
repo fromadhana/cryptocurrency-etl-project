@@ -1,0 +1,7 @@
+# python library dependencies
+python-dotenv
+pycoingecko #coingecko API wrapper
+sqlalchemy
+psycopg2
+pandas
+mypy

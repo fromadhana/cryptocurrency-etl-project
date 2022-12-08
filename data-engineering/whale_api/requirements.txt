@@ -1,0 +1,8 @@
+# python library dependencies
+types-requests
+python-dotenv
+sqlalchemy
+requests
+psycopg2-binary
+pandas
+mypy
