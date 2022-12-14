@@ -14,7 +14,7 @@ from pycoingecko import CoinGeckoAPI
 import streamlit as st
 import imageio.v2 as iio
 
-image = iio.imread("https://lh3.googleusercontent.com/pw/AL9nZEWoHdXuZMNlshLwjUZqMz56d2crU6SvmbySQEMKdc5zNSBRBw6WWIuKhNvPCmxRhLVY_TJ49_rNhNDP66IOCy6QTgfLA56dW92BXOmgOkXap-TDX2IhSFoNZyxK45wLdxS4apkTwhhAt1zEs9J-r__n=w1698-h568-no?authuser=0")
+image = iio.imread("btc.png")
 st.image(image)
 st.write("""
 -----------------------------------------------------
@@ -38,7 +38,7 @@ x = st.selectbox(
 btc_df.loc[x]
 
 #import .pickle
-pickle_in = open("cryptocurrency-etl-project/blob/main/machine-learning/btc_prediction_fr/btc_prediction_lr.pkl", 'rb')
+pickle_in = open("btc_prediction_lr.pkl", 'rb')
 lin_reg = pickle.load(pickle_in)
 
 st.markdown("Now, please input the Open, High & Low Price for predict the ₿itcoin's Close price!")
