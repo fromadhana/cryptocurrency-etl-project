@@ -14,6 +14,7 @@ from pycoingecko import CoinGeckoAPI
 import streamlit as st
 from PIL import Image
 
+
 image = Image.open('btc.png')
 st.image(image)
 st.write("""
