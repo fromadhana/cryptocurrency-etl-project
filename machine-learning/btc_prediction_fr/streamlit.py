@@ -12,10 +12,9 @@ from datetime import datetime
 import pandas as pd 
 from pycoingecko import CoinGeckoAPI
 import streamlit as st
-from PIL import Image
+import imageio as iio
 
-
-image = Image.open('btc.png')
+image = iio.imread('btc.png')
 st.image(image)
 st.write("""
 -----------------------------------------------------
