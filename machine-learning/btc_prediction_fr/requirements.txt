@@ -8,4 +8,4 @@ pickle5
 datetime
 pycoingecko
 streamlit
-Pillow
+imageio
