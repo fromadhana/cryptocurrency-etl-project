@@ -38,7 +38,7 @@ x = st.selectbox(
 btc_df.loc[x]
 
 #import .pickle
-pickle_in = open('btc_prediction_lr.pkl', 'rb')
+pickle_in = open("https://github.com/fromadhana/cryptocurrency-etl-project/blob/main/machine-learning/btc_prediction_fr/btc_prediction_lr.pkl", 'rb')
 lin_reg = pickle.load(pickle_in)
 
 st.markdown("Now, please input the Open, High & Low Price for predict the ₿itcoin's Close price!")
